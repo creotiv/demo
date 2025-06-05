@@ -68,6 +68,10 @@ For article  https://hackernoon.com/deploying-on-aws-free-tire-with-docker-and-f
 
 https://github.com/creotiv/aws-docker-example
 
+## Free course on Object Detection in Machine Learning
+
+https://github.com/creotiv/object_detection_projects/tree/master/free_course
+
 ## Migrated to PyTorch HDRNet model for photo editing
 
 Fore some reason it doesn't work, i talked with author of the paper, and it seems there were some internal difference in PyTorch itself which leading to dying gradient.

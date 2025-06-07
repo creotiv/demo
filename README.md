@@ -4,7 +4,7 @@
 
 Safari WebExtension (bundled in a minimal macOS host app) that lets you highlight any element on a webpage, send its text to an AI model with a chosen system prompt, and automatically copy the generated comment to your clipboard. You can define multiple named contexts in the extension’s settings page to tailor the tone and style of comments for different scenarios.
 
-https://github.com/creotiv/safari-llm-reply/tree/main
+https://github.com/creotiv/safari-llm-reply
 
 ## LLM YouTube Moderator Bot
 

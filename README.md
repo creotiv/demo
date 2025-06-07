@@ -1,5 +1,11 @@
 # List of my demo projects and tutorials
 
+## LLM Reply Safari Extension
+
+Safari WebExtension (bundled in a minimal macOS host app) that lets you highlight any element on a webpage, send its text to an AI model with a chosen system prompt, and automatically copy the generated comment to your clipboard. You can define multiple named contexts in the extension’s settings page to tailor the tone and style of comments for different scenarios.
+
+https://github.com/creotiv/safari-llm-reply/tree/main
+
 ## LLM YouTube Moderator Bot
 
 This Python script provides an automated solution for moderating live YouTube chat comments using a local Large Language Model (LLM) via LM Studio. The bot can detect and delete comments that are deemed inappropriate based on a configurable system prompt.

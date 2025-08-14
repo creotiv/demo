@@ -1,5 +1,12 @@
 # List of my demo projects and tutorials
 
+## KV Store with Replication based on Raft Consensus
+
+Small educational project to show how raft consensus work
+
+https://github.com/creotiv/raft-consenus-kv-example
+
+
 ## LLM Reply Safari Extension
 
 Safari WebExtension (bundled in a minimal macOS host app) that lets you highlight any element on a webpage, send its text to an AI model with a chosen system prompt, and automatically copy the generated comment to your clipboard. You can define multiple named contexts in the extension’s settings page to tailor the tone and style of comments for different scenarios.

@@ -1,0 +1,29 @@
+name: Deploy Example
+
+on:
+  push:
+    branches: [ demo ]
+  workflow_dispatch:
+
+permissions:
+  # permissions by OIDC token
+  id-token: write
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/demo' || github.event_name == 'workflow_dispatch'
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Configure AWS credentials
+      uses: aws-actions/configure-aws-credentials@v4
+      with:
+        # This is ARN of the role that we created
+        role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+        aws-region: us-west-2
+
+    # ... Now you can call AWS CLI with all set permissions by the role

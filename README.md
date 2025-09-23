@@ -1,5 +1,11 @@
 # List of my demo projects and tutorials
 
+## BLE Device Key Mapper for MacOS
+
+A Flutter desktop app (focus: macOS) that maps buttons on custom Bluetooth/USB HID keyboards to system-wide actions. Users can bind a button on a selected device to either a macOS shortcut (e.g., cmd+c, brightness_up) or a shell command.
+
+https://github.com/creotiv/ble-device-key-mapper
+
 ## KV Store with Replication based on Raft Consensus
 
 Small educational project to show how raft consensus work

@@ -1,5 +1,10 @@
 # List of my demo projects and tutorials
 
+## Go Lang Hiload patterns
+Some patterns that are usefull to understand for developing hiloaded & distibuted services
+
+https://github.com/creotiv/go-hiload
+
 ## BLE Device Key Mapper for MacOS
 
 A Flutter desktop app (focus: macOS) that maps buttons on custom Bluetooth/USB HID keyboards to system-wide actions. Users can bind a button on a selected device to either a macOS shortcut (e.g., cmd+c, brightness_up) or a shell command.
